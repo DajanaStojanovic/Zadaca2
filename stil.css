@@ -1,0 +1,67 @@
+body{ 
+      background: url('slika1.jpg') no-repeat fixed center;
+	  margin:  100px;
+		
+}
+
+/* pozadina preuzeta sa linka: http://wallpaperswide.com/page/4 */
+
+h1 { 
+	font: bold;
+	text-align: center;
+	direction: ltr;
+	text-transform: uppercase;
+	word-spacing: 7px;
+	font-family: Chiller;
+	text-shadow: 7px 7px 11px white;
+	
+}
+  
+.prijava { 
+color: #000000;
+
+}
+
+
+input:focus, textarea:focus, select:focus{
+      background-color: yellow;
+}
+
+
+fieldset
+{
+border: 2px solid #000000;
+width: 50%;
+}
+
+.potpis {
+text-align: center; 
+}
+
+table{
+border-spacing:10px 20px; 
+}
+
+li a:link {color:blue;}     
+li a:visited {color:red;}  
+li a:hover {color:green; }  
+
+.linkovi {
+text-align: left; 
+font-size: 20px;
+list-style-type: upper-roman;
+}
+
+.link { 
+color: #000000;
+
+}
+
+pre {
+	margin: auto;
+	padding: 10px;
+	font-family: Comic Sans MS;
+	text-align: center;
+	line-height: 15px;
+	white-space: pre;
+}
